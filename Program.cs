@@ -6,8 +6,9 @@ namespace FourInARow
     {
         static void Main(string[] args)
         {
-            Board board = new Board();
-            
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Game game = new Game();
+            game.Start();
         }
     }
 }
