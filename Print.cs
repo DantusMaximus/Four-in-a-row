@@ -22,6 +22,7 @@ static class Print
             Console.WriteLine();
             Console.WriteLine("───────────────");
         }
+        Console.WriteLine(" 1 2 3 4 5 6 7");
     }
     public static void Prompt(string message)
     {
