@@ -36,4 +36,8 @@ static class Print
         }
         Console.WriteLine(player.Name + " with " + (player.Piece == Piece.Yellow ? "🟡":"🔴") + " Has won!");
     }
+    public static void RequestMove(Player player){
+
+        Console.WriteLine((player.Piece == Piece.Red ? "🔴" : "🟡") + "'s turn");
+    }
 }

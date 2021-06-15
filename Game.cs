@@ -19,6 +19,7 @@ class Game {
         AddPlayers();
         while(!gameOver){
             Print.Board(Placed);
+            Print.RequestMove(Players[turnDeterminator]);
             invalidMove = true;
             while(invalidMove){
                 (int, Piece) placement = Players[turnDeterminator].MakeMove();
